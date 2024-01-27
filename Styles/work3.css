@@ -14,13 +14,15 @@ body {
 h1 {
   font-size: x-large;
   font-weight: bolder;
-  margin-bottom: 25px;
+  margin-bottom: 12px;
+  margin-top: 12px;
 }
 
 h2 {
   font-size: medium;
   font-weight: 500;
-  margin-bottom: 25px;
+  margin-bottom: 12px;
+  margin-top: 12px;
 }
 
 .italicText {
@@ -45,7 +47,8 @@ h2 {
   color: #1100f8;
 }
 
-ol {
+ol,
+dt {
   margin-left: 60px;
 }
 
