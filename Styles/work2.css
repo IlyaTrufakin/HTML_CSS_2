@@ -33,8 +33,7 @@ ul li {
 }
 
 .DarkBlueRow::after {
-  color: red;
-  content: "✘";
+  content: url(/Assets/icons/cross16.png);
   margin-left: 25px;
 }
 
@@ -44,9 +43,7 @@ ul li {
 }
 
 .GrayRow::after {
-  color: red;
-  text-decoration: none !important;
-  content: "✘";
+  content: url(/Assets/icons/cross16.png);
   margin-left: 25px;
 }
 
@@ -63,11 +60,11 @@ ul li {
 
 .LightBlueRow {
   background-color: #add8e5;
+  font-stretch: narrower;
 }
 
 .LightBlueRow::after {
-  color: red;
-  content: "✘";
+  content: url(/Assets/icons/cross16.png);
   margin-left: 25px;
 }
 
