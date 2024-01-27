@@ -47,9 +47,12 @@ h2 {
   color: #1100f8;
 }
 
-ol,
-dl {
+ol {
   margin-left: 60px;
+}
+
+dl {
+  margin-left: 42px;
 }
 
 ol li {

@@ -43,19 +43,22 @@ ul li {
   margin-right: 15px;
 }
 
-.GrayRow {
-  background-color: #e2e2e2;
-}
-
 .GrayRow::after {
   color: red;
+  text-decoration: none !important;
   content: "✘";
   margin-left: 25px;
+}
+
+.GrayRow {
+  background-color: #e2e2e2;
+  text-decoration: line-through;
 }
 
 .GrayRow::before {
   content: url(/Assets/icons/checked_16.png);
   margin-right: 15px;
+  text-decoration: none;
 }
 
 .LightBlueRow {
