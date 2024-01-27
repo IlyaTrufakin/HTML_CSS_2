@@ -54,7 +54,7 @@ ul li {
 }
 
 .GrayRow::before {
-  content: url(/Assets/icons/unchecked_16.png);
+  content: url(/Assets/icons/checked_16.png);
   margin-right: 15px;
 }
 
